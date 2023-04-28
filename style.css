@@ -70,6 +70,7 @@ main .content1 button {
   padding: 10px 40px;
   margin-top: 20px;
   border-radius: 10px;
+  border-width: 0px;
 }
 
 main .content1 img {
@@ -127,4 +128,42 @@ main .content3 p {
   font-size: 30px;
   font-weight: bold;
   text-align: end;
+}
+
+main .content4 {
+  padding: 100px;
+}
+
+main .content4 .container {
+  background-color: #3882F6;
+  padding: 50px 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .content4 h1 {
+  color: #F9FAF8;
+}
+
+main .content4 p {
+  color: #E5E7EB;
+}
+
+main .content4 button{
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: 2px solid #F9FAF8;
+  border-radius: 10px;
+  padding: 10px 35px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 20px;
 }
